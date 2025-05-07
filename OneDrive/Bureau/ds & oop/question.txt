@@ -1,0 +1,4 @@
+Create a Merge Sort function that takes a string str and prints a string with each element in alphabetical order.
+Example:
+input: 'louisa'
+output: 'ailosu'
