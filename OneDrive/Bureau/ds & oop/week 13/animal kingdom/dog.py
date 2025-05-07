@@ -19,13 +19,13 @@ class Dog(Mammal, Omnivore, Pet):
 
         print(super().reproduce() + '\n' + result)
 
-    def move(self) -> str:
+    def move(self) -> None:
         print("Dogs have most of the same muscles, tendons, joints, and ligaments as people. All 4 of the dog's limbs are maximized for locomotion, from a steady walk to a rapid sprint.")
 
-    def sleep(self) -> str:
+    def sleep(self) -> None:
         print('The big difference between dogs and humans is that dogs have short sleep cycles that last just 45 minutes at a time.')
 
-    def eat(self) -> str:
+    def eat(self) -> None:
         Omnivore.eat(self)
         
         
